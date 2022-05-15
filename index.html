@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;900&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="desktop.css">
+  <link rel="stylesheet" type="text/css" href="desktop_menu.css">
+  <link rel="stylesheet" type="text/css" href="mobile_menu.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body class="container">
+<!-- logo and menu -->
+  <header>
+    <div class="d-flex justify-content-between" id="top_container">
+        <!-- logo -->
+        <img src="images/logo.svg" class="img-fluid">
+        <!-- menu -->
+        <ul class="d-md-flex justify-content-evenly d-none d-md-block" id="features">
+          <li id="featuresNav">Features<span id="arrowdownDesk"><img src="images/icon-arrow-down.svg"></span><span class="arrowChangeDesk"><img src="images/icon-arrow-up.svg"></span></li>
+          <li id="companyNav">Company<span id="arrowdownDeskCompany"><img src="images/icon-arrow-down.svg"></span><span class="arrowChangeCompanyDesk"><img src="images/icon-arrow-up.svg"></span></span></li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <!-- login -->
+        <ul class="d-md-flex justify-content-evenly d-none d-md-block" id="login">
+          <li class="loginbtn">Login</li>
+          <li class="register">Register</li>
+        </ul>
+        <button class="menu d-md-none"><img src="images/icon-menu.svg"></button>
+    </div>
+  </header>
+  <!-- title button learn more and image -->
+  <section class="d-md-flex flex-md-row-reverse pt-2 row gap-3 gap-lg-0 gap-xxl-5" id="main_section">
+    <!-- image -->
+    <div class="p-md-2 col-md">
+      <img class="d-md-none" src="images/image-hero-mobile.png">
+      <img class="d-none d-md-block" src="images/image-hero-desktop.png">
+    </div>
+    <!-- main title -->
+    <div class="mt-5 d-flex flex-column justify-content-evenly align-items-center align-items-md-start justify-content-md-around p-md-2 col-md" id="text_container">
+      <h1 class="title">Make remote work</h1>
+      <p class="text">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+      <button class="button">Learn more</button>
+      <div class="footer_img d-flex justify-content-evenly justify-content-md-start mt-md-5"><img class="img_footer img_footer-active" src="images/client-databiz.svg"><img class="img_footer change" src="images/client-audiophile.svg"><img class="img_footer" src="images/client-meet.svg"><img class="img_footer" src="images/client-maker.svg"></div>
+    </div>  
+  </section>
+  <script src="mobile_menu.js"></script>
+  <script src="desktop_menu.js"></script>
+</body>
+</html>
+

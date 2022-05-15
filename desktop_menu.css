@@ -1,0 +1,73 @@
+/*features btn*/
+
+.contentFeaturesNav{
+    position: absolute;
+    z-index: 1;
+    margin-top: 1rem;
+    margin-left: -5rem;
+    background-color: #fff;
+    height: 10.5rem;
+    width: 10rem;
+    border: solid .5px hsla(0, 8%, 92%, 0.829);
+    box-shadow: 1px 1px 10px 1px hsla(0, 0%, 72%, 0.351);
+    border-radius: 6px;
+    text-align: left;
+    padding-left: 1.5rem;
+    gap: .5rem;
+    display: none!important;
+}
+
+
+.contentFeaturesNav-active{
+    display: flex!important;
+}
+
+.arrowdownHideDesk{
+    display: none;
+  }
+
+.arrowChangeDesk{
+    display: none;
+    padding-left: .5rem;
+}
+
+.arrowUpDesk{
+  display: inline-block;
+}
+
+/*company btn*/
+
+.contentCompanyNav{
+    position: absolute;
+    z-index: 1;
+    margin-top: 1rem;
+    background-color: #fff;
+    height: 8rem;
+    width: 8rem;
+    border: solid .5px hsla(0, 8%, 92%, 0.829);
+    box-shadow: 1px 1px 10px 1px hsla(0, 0%, 72%, 0.351);
+    border-radius: 6px;
+    text-align: left;
+    padding-left: 1.5rem;
+    gap: .5rem;
+    display: none!important;
+}
+
+.contentCompanyNav-active{
+    display: flex!important;
+
+}
+
+.arrowChangeCompanyDesk{
+    display: none;
+    padding-left: .5rem;
+}
+
+.arrowUpCompanyDesk{
+    display: inline-block;
+  }
+
+.arrowHideCompanyDesk{
+  display: none;
+}
+
